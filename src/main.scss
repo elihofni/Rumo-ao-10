@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import "drawings/**/*.scss";
+
+// OpenSans
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+.body {
+  background: #f9f9f9;
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.title {
+  color: dodgerblue;
+  margin: 0;
+  font-size: 3vw;
+  padding: 1vw 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sketches {
+  margin: 0 auto;
+  width: 100vw;
+  padding: 1vw;
+}
+
+.sketches__sketch {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 50vw;
+  padding: 1vw;
+  width: 100%;
+}
+
+.sketches__sketch__subtitle {
+  color: dodgerblue;
+  text-align: center;
+  width: 100%;
+}
